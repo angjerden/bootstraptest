@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstraptesting</title>
+        <link rel="stylesheet" type="text/css" href="lib/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="http://projects.spring.io/spring-framework/css/main.css.css"/>
+        <!--<link rel="stylesheet" type="text/css" href="http://projects.spring.io/spring-framework/bootstrap/css/bootstrap-select.css"/>-->
+    </head>
+    <body>
+    <header class="navbar header--navbar">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <div class="spring-logo--container">
+                    <a class="spring-logo" href="http://spring.io"><span></span></a>
+                </div>
+                <ul class="nav pull-right">
+                    <li class="navbar-link"><a href="http://spring.io/docs">Docs</a>
+                    </li>
+                    <li class="navbar-link"><a href="http://spring.io/guides">Guides</a></li>
+                    <li class="navbar-link active"><a href="http://spring.io/projects">Projects</a></li>
+                    <li class="navbar-link"><a href="http://spring.io/blog">Blog</a>
+                    </li>
+                    <li class="navbar-link"><a href="http://forum.spring.io">Forum</a>
+                    </li>
+                    <li class="navbar-link nav-search"><i class="icon-search navbar-search--icon js-search-input-open"></i>
+                        <div class="search-input-close js-search-input-close">x</div></li>
+                </ul>
+            </div>
+        </div>
+        <div class="search-dropdown--container js-search-dropdown">
+            <div class="container-fluid">
+                <div class="search-form--container">
+                    <form class="form-inline form-search" action="http://spring.io/search" method="get">
+                        <input type="text" class="search-query search-form--form js-search-input" placeholder="Search for documention, guides, and posts..." name="q"/>
+                        <button type="submit" class="search-form--submit">
+                            <i class="icon-search"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+
+        <div class="container">
+            <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle"
+                        type="button"
+                        id="dropdownMenu1"
+                        data-toggle="dropdown">
+                Dropdown
+                <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                    <li role="presentation"><a role="menuitem" tabindex="1" href="#">Action</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="2" href="#">Action 2</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="3" href="#">Action 3</a></li>
+                    <li role="presentation" class="divider"></li>
+                    <li role="presentation"><a role="menuitem" tabindex="4" href="#">Separat lenke</a></li>
+                </ul>
+            </div>
+        </div>
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+        <script src="lib/js/bootstrap.min.js"></script>
+    </body>
+</html>
